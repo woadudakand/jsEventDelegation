@@ -16,8 +16,8 @@
        });
 		
 		// eventDelegation
-        eventDelegation('keyup', '#addButton', function(e){
-            console.log(e.target.value);
+        eventDelegation('keyup', '#addButton', function(e, element){
+            console.log(e.target.value, element.value);
         });
 		
     </script>
